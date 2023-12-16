@@ -7,8 +7,8 @@
 1. Crear una cuenta en [**GITHUB**](https://www.github.com/).
 2. Si usas una computadora con Windows, puedes instalar la terminal de comandos [**GIT-BASH**](https://git-for-windows.github.io/).
 3. Si usas Mac, `git` viene pre-instalado y puedes acceder desde la terminal pulsando `⌘+Espacio` y escribiendo "_terminal_". Puedes asegurarte de que git está instalado escribiendo "_which git_" en la terminal y pulsando "**Enter**". Si aparece la ruta de un archivo significa que todo está correcto. En algunas ocasiones, podrías ser redireccionado a la descarga de la línea de comandos de Xcode, sigue las instrucciones.
-   -  Si usas Linux, tal vez necesites instalar git accediendo a tu terminal e ingresado `apt-get install git`
-   -  Si tienes problemas instalando Git, este [**recurso**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) puede servir de ayuda.
+   - Si usas Linux, tal vez necesites instalar git accediendo a tu terminal e ingresado `apt-get install git`
+   - Si tienes problemas instalando Git, este [**recurso**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) puede servir de ayuda.
 
 ---
 
