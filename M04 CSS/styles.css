@@ -1,0 +1,85 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+
+.title {
+    font-size: 2.8em;
+    color: rgb(71, 7, 20);
+}
+
+
+
+
+
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+
+.cards {
+    /* border: 2px solid black; */
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    /* aplicar  flex*/
+    flex-direction: column;
+    /* direccion de los elementos div*/
+    gap: 1em;
+    /*espacio entre los elementos del div*/
+    align-items: center;
+    /*centramos los elementos*/
+}
+
+#cards-container {
+    /*background-color: rgb(184, 184, 177);*/
+    width: 95vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(210, 205, 205);
+    border-radius: 15px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#principal {
+    font-size: 4.5em;
+    
+}
+
+#titulos {
+    /*border: 2px solid black;*/
+    /*viewport width*/
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#logo-container {
+    /*background-color: rgb(184, 184, 177);*/
+    width: 95vw;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: grey solid 2px;
+        padding: 0.25em;
+        border-radius: 0.25em;
+}

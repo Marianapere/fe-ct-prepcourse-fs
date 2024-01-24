@@ -1,0 +1,63 @@
+/* Reset CSS */
+
+/* Box-sizing border-box por defecto para todos los elementos */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Establecer márgenes y rellenos en 0 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Eliminar la lista de estilos y espaciado de la lista no ordenada y ordenada */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Establecer el tamaño de fuente predeterminado y la familia de fuentes ,Eliminar los márgenes del cuerpo para evitar desbordamientos inesperados */
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Establecer un estilo de fuente predeterminado para los encabezados */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* Establecer el ancho del borde del cuadro de imagen en 0 para evitar desbordamientos */
+img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Normalizar el estilo de enlace para evitar la subrayado y cambiar el color */
+a {
+    text-decoration: none;
+    color: inherit;
+}
